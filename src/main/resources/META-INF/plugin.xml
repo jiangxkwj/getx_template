@@ -1,10 +1,10 @@
 <idea-plugin>
     <!-- Plug-in name, the name displayed by the official plugin library -->
-    <name>GetX</name>
+    <name>YYTGetX</name>
     <!-- version number  -->
     <!--    <version>1.1</version>-->
     <!-- homepage and email (contact address)-->
-    <vendor email="xdd666@foxmail.com" url="https://github.com/CNAD666/getx_template">小呆呆666</vendor>
+    <vendor email="yyt@yyt.com" url="https://github.com/CNAD666/getx_template">yyt</vendor>
 
     <!--  It is recommended to write the id of other plugins that the plugin depends on. Do
     not write it. In some cases, uploading the plugin will report an error -->
@@ -13,7 +13,7 @@
     <!-- Write plugin actions -->
     <actions>
         <!-- Add your actions here -->
-        <action id="com.xdd.NewGetX" class="action.NewGetXAction" text="GetX" description="Create getX template code"
+        <action id="com.yyt.NewGetX" class="action.NewGetXAction" text="SYTGetX" description="Create getX template code"
                 icon="/image/getx_icon.png">
             <add-to-group group-id="NewGroup" anchor="first"/>
         </action>

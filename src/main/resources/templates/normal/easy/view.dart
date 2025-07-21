@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'logic.dart';
 
 class @namePage extends StatelessWidget {
-  @namePage({Key? key}) : super(key: key);
+  @namePage({super.key});
 
   final @nameLogic logic = Get.put(@nameLogic());
 
